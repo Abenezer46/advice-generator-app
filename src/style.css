@@ -18,8 +18,8 @@ body{
 
 .container{
     background-color: hsl(218, 20%, 24%);
-    max-width: 544px;
-    max-height: 332px;
+    width: 544px;
+    height: 332px;
     border-radius: 10px;
     padding: 58px 48px 0;
     text-align: center;
@@ -38,15 +38,16 @@ body{
     color: hsl(150, 100%, 66%);
 }
 
-.advice{
-    font-size: 25px;
-    margin-bottom: 37px;
+.text{
+    font-size: 28px;
     font-weight: 800;
     text-align: center;
-    line-height: normal;
 }
 .pause{
+    padding: 0px 48px;
+    margin-top: 190px;
     margin-bottom: 73px;
+   position: fixed;
 }
 
 .mobile-divider{
@@ -78,7 +79,7 @@ body{
         height: 319px;
         padding: 42px 24px 0;
     }
-    .advice{
+    .text{
         font-size: 20px;
         margin-bottom: 24px;
     }
